@@ -185,7 +185,8 @@ h2, h4 {
 }
 
 .btn-green > a {
-    color: black;
+    color: #2f3937;
+    font-size: 1.8rem;
 }
 
 .btn-white {
