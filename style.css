@@ -196,6 +196,11 @@ h2, h4 {
     z-index: 100;
 }
 
+.btn-white > a {
+    color: #2f3937;
+    font-size: 1.8rem;
+}
+
 .btn-green::before,
 .btn-white::before {
     content: '';
