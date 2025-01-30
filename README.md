@@ -1,6 +1,6 @@
 # La Hotel
  
- <img src="images/screenshot.jpg" alt="project">
+ <img src="images/screenshot.webp?v=1.1" alt="project">
 
 La Hotel is a simple, clean and minimalistic template built for a hotel.
 

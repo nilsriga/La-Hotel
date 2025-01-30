@@ -5,9 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gibson Royal Hotel</title>
+    <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico">
+    <link rel="preload" as="image" href="images/hero-bg.webp?v=1.1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content="Welcome to Gibson Royal, your ultimate destination for sunny comfort in the heart of Los Angeles, Hawthorne. Enjoy luxury and relaxation at our hotel.">
+    <meta name="keywords" content="Gibson Royal, hotel, Los Angeles, Hawthorne, sunny comfort, luxury, relaxation, rooms, restaurant, spa">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Gibson Royal Hotel">
+    <meta property="og:description" content="Welcome to Gibson Royal, your ultimate destination for sunny comfort in the heart of Los Angeles, Hawthorne. Enjoy luxury and relaxation at our hotel.">
+    <meta property="og:image" content="images/hero-bg.webp">
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gibson Royal Hotel">
+    <meta name="twitter:description" content="Welcome to Gibson Royal, your ultimate destination for sunny comfort in the heart of Los Angeles, Hawthorne. Enjoy luxury and relaxation at our hotel.">
+    <meta name="twitter:image" content="images/hero-bg.webp">
+    <meta name="twitter:url" content="/">
+
+    <!-- Google Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Hotel",
+      "name": "Gibson Royal",
+      "description": "Welcome to Gibson Royal, your ultimate destination for sunny comfort in the heart of Los Angeles, Hawthorne. Enjoy luxury and relaxation at our hotel.",
+      "image": "images/hero-bg.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hawthorne",
+        "addressRegion": "CA",
+        "postalCode": "90250",
+        "streetAddress": "123 Gibson Royal St"
+      },
+      "telephone": "+1-310-555-1234",
+      "url": "/",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pool",
+          "value": "Outdoor pool"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Restaurant",
+          "value": "On-site restaurant"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Spa",
+          "value": "Spa and Wellness center"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -16,7 +71,7 @@
     <!-- NAVBAR -->
     <div class="container">
         <nav class="navbar">
-            <a class="logo" href="index.html"><img style="height: 2rem;" src="images/gr.png" alt="user">Gibson Royal</a>
+            <a class="logo" href="index.html"><img style="height: 2rem;" src="images/gr.webp" alt="user">Gibson Royal</a>
             <input type="checkbox" id="check">
             <label for="check">
                 <i class="fas fa-bars" id="open"></i>
@@ -52,12 +107,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-2 padding-right">
-                        <p class="info-text text-green">Welcome to Gibson Royal, your ultimate destination for sunny comfort in the heart of Los Angeles, Hawthorne. Nestled in a vibrant neighborhood, our hotel offers a perfect blend of luxury and relaxation. Enjoy the warm California sun by our sparkling pool, or unwind in our lush garden oasis.</p>
+                        <p class="info-text text-green info-text-container">Welcome to Gibson Royal, your ultimate destination for sunny comfort in the heart of Los Angeles, Hawthorne. Nestled in a vibrant neighborhood, our hotel offers a perfect blend of luxury and relaxation. Enjoy the warm California sun by our sparkling pool, or unwind in our lush garden oasis.</p>
                         <p class="info-text text-green">At Gibson Royal, we pride ourselves on providing exceptional service and a memorable stay. Our friendly staff is dedicated to ensuring your experience is extraordinary. Discover the best of Los Angeles with our convenient location, just minutes away from iconic attractions and entertainment. Come and experience the sunny comfort that awaits you at Gibson Royal.</p>
                     </div>
                     <div class="col-2 image-group">
-                        <img src="images/blog-list-img-1.jpg" alt="image">
-                        <img src="images/blog-list-img-2.jpg" alt="image">
+                        <img src="images/blog-list-img-1.webp?v=1.1" alt="image">
+                        <img src="images/blog-list-img-2.webp?v=1.1" alt="image">
                     </div>
                 </div>
             </div>
@@ -68,7 +123,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-2 padding-right">
-                        <img src="images/rooms.jpg" alt="image">
+                        <img src="images/room-1.webp?v=1.1" alt="image">
                     </div>
                     <div class="col-2">
                         <div class="text-box">
@@ -93,7 +148,7 @@
                         </div>
                     </div>
                     <div class="col-2">
-                        <img src="images/restaurant.jpg" alt="image">
+                        <img src="images/restaurant.webp?v=1.1" alt="image">
                     </div>
                 </div>
             </div>
@@ -104,7 +159,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-2 padding-right">
-                        <img src="images/spa-img-3.jpg" alt="image">
+                        <img src="images/spa-img-1.webp?v=1.1" alt="image">
                     </div>
                     <div class="col-2">
                         <div class="text-box">
@@ -132,7 +187,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <img src="images/user-1.jpg" alt="user">
+                        <img src="images/user-1.webp?v=1.1" alt="user">
                         <h3>David Thompson</h3>
                     </div>
                     <div class="slider-box">
@@ -145,7 +200,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <img src="images/user-2.jpg" alt="user">
+                        <img src="images/user-2.webp?v=1.1" alt="user">
                         <h3>Michael Johnson</h3>
                     </div>
                     <div class="slider-box">
@@ -158,7 +213,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <img src="images/user-3.jpg" alt="user">
+                        <img src="images/user-3.webp?v=1.1" alt="user">
                         <h3>Emily Davis</h3>
                     </div>
                 </div>
@@ -223,11 +278,6 @@
         </div>
     </footer>
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/app.js"></script>
 </body>
 
 </html>
