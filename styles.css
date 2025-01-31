@@ -340,7 +340,7 @@ label #close {
 }
 
 .hero {
-    background-image: linear-gradient(to right bottom, rgba(40, 180, 133, 0.8), rgb(69, 93, 88, 0.5)), url("images/hero-bg.webp?v=1.5");
+    background-image: linear-gradient(to right bottom, rgba(40, 180, 133, 0.8), rgb(69, 93, 88, 0.5)), url("images/hero-bg.webp?v=1.6");
     background-size: cover;
     background-position: center;
     height: calc(100vh - 7.5rem);
